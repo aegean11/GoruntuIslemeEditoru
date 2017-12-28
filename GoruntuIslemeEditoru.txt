@@ -1,0 +1,1159 @@
+----------------Form1.Designer-----------
+
+namespace GoruntuIslemeEditoru
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.dosyaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Aç = new System.Windows.Forms.ToolStripMenuItem();
+            this.efektToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.histogramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.terslemeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aynalamaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saðaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.solaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dondurmeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rightToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.leftToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.olceklendirmeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gritonlamaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.renkkanaliStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.redToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.greenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.blueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.hidden_box = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.tekrarAçToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hidden_box)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dosyaToolStripMenuItem,
+            this.efektToolStripMenuItem,
+            this.tekrarAçToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(663, 24);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // dosyaToolStripMenuItem
+            // 
+            this.dosyaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.Aç});
+            this.dosyaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.dosyaToolStripMenuItem.Name = "dosyaToolStripMenuItem";
+            this.dosyaToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
+            this.dosyaToolStripMenuItem.Text = "Dosya";
+            // 
+            // Aç
+            // 
+            this.Aç.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.Aç.Name = "Aç";
+            this.Aç.Size = new System.Drawing.Size(152, 22);
+            this.Aç.Text = "Aç";
+            this.Aç.Click += new System.EventHandler(this.aç);
+            // 
+            // efektToolStripMenuItem
+            // 
+            this.efektToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.histogramToolStripMenuItem,
+            this.terslemeToolStripMenuItem,
+            this.aynalamaToolStripMenuItem,
+            this.dondurmeToolStripMenuItem,
+            this.olceklendirmeToolStripMenuItem,
+            this.gritonlamaToolStripMenuItem,
+            this.renkkanaliStripMenuItem});
+            this.efektToolStripMenuItem.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.efektToolStripMenuItem.Name = "efektToolStripMenuItem";
+            this.efektToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
+            this.efektToolStripMenuItem.Text = "Efekt";
+            // 
+            // histogramToolStripMenuItem
+            // 
+            this.histogramToolStripMenuItem.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.histogramToolStripMenuItem.Name = "histogramToolStripMenuItem";
+            this.histogramToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.histogramToolStripMenuItem.Text = "Histogram";
+            this.histogramToolStripMenuItem.Click += new System.EventHandler(this.histogramToolStripMenuItem_Click);
+            // 
+            // terslemeToolStripMenuItem
+            // 
+            this.terslemeToolStripMenuItem.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.terslemeToolStripMenuItem.Name = "terslemeToolStripMenuItem";
+            this.terslemeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.terslemeToolStripMenuItem.Text = "Tersleme";
+            this.terslemeToolStripMenuItem.Click += new System.EventHandler(this.ýnvertToolStripMenuItem_Click);
+            // 
+            // aynalamaToolStripMenuItem
+            // 
+            this.aynalamaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.saðaToolStripMenuItem,
+            this.solaToolStripMenuItem});
+            this.aynalamaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.aynalamaToolStripMenuItem.Name = "aynalamaToolStripMenuItem";
+            this.aynalamaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aynalamaToolStripMenuItem.Text = "Aynalama";
+            this.aynalamaToolStripMenuItem.Click += new System.EventHandler(this.mirroringToolStripMenuItem_Click);
+            // 
+            // saðaToolStripMenuItem
+            // 
+            this.saðaToolStripMenuItem.Name = "saðaToolStripMenuItem";
+            this.saðaToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
+            this.saðaToolStripMenuItem.Text = "Sað";
+            this.saðaToolStripMenuItem.Click += new System.EventHandler(this.saðaToolStripMenuItem_Click);
+            // 
+            // solaToolStripMenuItem
+            // 
+            this.solaToolStripMenuItem.Name = "solaToolStripMenuItem";
+            this.solaToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
+            this.solaToolStripMenuItem.Text = "Sol";
+            this.solaToolStripMenuItem.Click += new System.EventHandler(this.solaToolStripMenuItem_Click);
+            // 
+            // rotationToolStripMenuItem
+            // 
+            this.dondurmeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.rightToolStripMenuItem,
+            this.leftToolStripMenuItem});
+            this.dondurmeToolStripMenuItem.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.dondurmeToolStripMenuItem.Name = "rotationToolStripMenuItem";
+            this.dondurmeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.dondurmeToolStripMenuItem.Text = "Döndürme";
+            this.dondurmeToolStripMenuItem.Click += new System.EventHandler(this.rotationToolStripMenuItem_Click);
+            // 
+            // rightToolStripMenuItem
+            // 
+            this.rightToolStripMenuItem.Name = "rightToolStripMenuItem";
+            this.rightToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
+            this.rightToolStripMenuItem.Text = "90° Sað";
+            this.rightToolStripMenuItem.Click += new System.EventHandler(this.rightToolStripMenuItem_Click);
+            // 
+            // leftToolStripMenuItem
+            // 
+            this.leftToolStripMenuItem.Name = "leftToolStripMenuItem";
+            this.leftToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
+            this.leftToolStripMenuItem.Text = "90° Sol";
+            this.leftToolStripMenuItem.Click += new System.EventHandler(this.leftToolStripMenuItem_Click);
+            // 
+            // scalingToolStripMenuItem
+            // 
+            this.olceklendirmeToolStripMenuItem.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.olceklendirmeToolStripMenuItem.Name = "scalingToolStripMenuItem";
+            this.olceklendirmeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.olceklendirmeToolStripMenuItem.Text = "Ölçeklendirme";
+            this.olceklendirmeToolStripMenuItem.Click += new System.EventHandler(this.scalingToolStripMenuItem_Click);
+            // 
+            // grayScalingToolStripMenuItem
+            // 
+            this.gritonlamaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.gritonlamaToolStripMenuItem.Name = "grayScalingToolStripMenuItem";
+            this.gritonlamaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.gritonlamaToolStripMenuItem.Text = "Gri Tonlama";
+            this.gritonlamaToolStripMenuItem.Click += new System.EventHandler(this.grayScalingToolStripMenuItem_Click);
+            // 
+            // rGBToolStripMenuItem
+            // 
+            this.renkkanaliStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.redToolStripMenuItem,
+            this.greenToolStripMenuItem,
+            this.blueToolStripMenuItem});
+            this.renkkanaliStripMenuItem.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.renkkanaliStripMenuItem.Name = "rGBToolStripMenuItem";
+            this.renkkanaliStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.renkkanaliStripMenuItem.Text = "Renk Kanallarý";
+            // 
+            // redToolStripMenuItem
+            // 
+            this.redToolStripMenuItem.Name = "redToolStripMenuItem";
+            this.redToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.redToolStripMenuItem.Text = "Kýrmýzý";
+            this.redToolStripMenuItem.Click += new System.EventHandler(this.redToolStripMenuItem_Click);
+            // 
+            // greenToolStripMenuItem
+            // 
+            this.greenToolStripMenuItem.Name = "greenToolStripMenuItem";
+            this.greenToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.greenToolStripMenuItem.Text = "Yeþil";
+            this.greenToolStripMenuItem.Click += new System.EventHandler(this.greenToolStripMenuItem_Click);
+            // 
+            // blueToolStripMenuItem
+            // 
+            this.blueToolStripMenuItem.Name = "blueToolStripMenuItem";
+            this.blueToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.blueToolStripMenuItem.Text = "Mavi";
+            this.blueToolStripMenuItem.Click += new System.EventHandler(this.blueToolStripMenuItem_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(663, 513);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // hidden_box
+            // 
+            this.hidden_box.Location = new System.Drawing.Point(0, 0);
+            this.hidden_box.Name = "hidden_box";
+            this.hidden_box.Size = new System.Drawing.Size(663, 513);
+            this.hidden_box.TabIndex = 4;
+            this.hidden_box.TabStop = false;
+          
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.hidden_box);
+            this.panel1.Location = new System.Drawing.Point(0, 27);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(663, 513);
+            this.panel1.TabIndex = 6;
+            // 
+            // tekrarAçToolStripMenuItem
+            // 
+            this.tekrarAçToolStripMenuItem.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.tekrarAçToolStripMenuItem.Name = "tekrarAçToolStripMenuItem";
+            this.tekrarAçToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
+            this.tekrarAçToolStripMenuItem.Text = "Tekrar Aç";
+            this.tekrarAçToolStripMenuItem.Click += new System.EventHandler(this.tekrarAçToolStripMenuItem_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(663, 572);
+            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.panel1);
+            this.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
+            this.Name = "Form1";
+            this.RightToLeftLayout = true;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Görüntü Ýþleme Editörü";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hidden_box)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem dosyaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem Aç;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripMenuItem efektToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem histogramToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem terslemeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aynalamaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dondurmeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem olceklendirmeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gritonlamaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem renkkanaliStripMenuItem;
+        private System.Windows.Forms.PictureBox hidden_box;
+        private System.Windows.Forms.ToolStripMenuItem saðaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem solaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rightToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem leftToolStripMenuItem;
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ToolStripMenuItem redToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem greenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem blueToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tekrarAçToolStripMenuItem;
+    }
+}
+
+
+
+----------------Form1.cs------------------
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace GoruntuIslemeEditoru
+{
+    public partial class Form1 : Form
+    {
+        // reopen iþlemi için sakladýðýmýz sabit resim
+        private Image sabitresim;
+
+        // zoom iþlemi için resmin iki versiyonunu saklýyoruz
+        private Image resizedImage;
+        private Image realImage;
+
+        public Form1()
+        {
+            InitializeComponent();
+            // üstteki menünün sabit durmasý için form yerine panele autoscroll veriyoruz
+            panel1.AutoScroll = true;
+        }
+
+        private void aç(object sender, EventArgs e)
+        {
+            // using ile bir dosya açma diyaloðu oluþturuyoruz
+            using (OpenFileDialog dialog = new OpenFileDialog())
+            {
+                //dialog.Title = "Yeni Resim Aç";
+                dialog.Filter = "Uygun Formatlar (*.jpg, *.jpeg, *.png) | *.jpg; *.jpeg; *.png";
+
+                // eðer diyalogdan baþarýlý sonuç dönerse
+                if (dialog.ShowDialog() == DialogResult.OK)
+                {
+                    // seçilen resmi alýyoruz
+                    Bitmap resim = new Bitmap(dialog.FileName);
+
+                    // resmi forma oturtmak için gerekli boyutu hesaplýyoruz
+                    Size yeniboyut = resmiortalama(resim.Size, 600, 500);
+
+                    // boyutlandýrýlmýþ resmi oluþturuyoruz
+                    Bitmap yeniresim = new Bitmap(resim, yeniboyut);
+
+                    // ve kutuya atýyoruz
+                    pictureBox1.Image = new Bitmap(yeniresim);
+
+                    // arkaya eklediðimiz hidden box içerisine resmin orjinal boyutunu atýyoruz
+                    hidden_box.Visible = false;
+                    hidden_box.Width = resim.Width;
+                    hidden_box.Height = resim.Height;
+                    hidden_box.Image = new Bitmap(resim);
+                    
+
+                   // this.realImage = resim;
+                    this.sabitresim = resim;
+                   // pictureBox1.Visible = true;
+                   
+
+                }
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+           
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            hidden_box.SizeMode = PictureBoxSizeMode.CenterImage;
+        }
+        //resmi ortalayýp sabit alan tutmak için
+        public static Size resmiortalama(Size src, int maxWidth, int maxHeight)
+        {
+            decimal rnd = Math.Min(maxWidth / (decimal)src.Width, maxHeight / (decimal)src.Height);
+            return new Size((int)Math.Round(src.Width * rnd), (int)Math.Round(src.Height * rnd));
+        }
+
+        private void histogramToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // histogram için ayrý bir form açacaðýz
+            if (hidden_box.Image != null)
+            {
+                // formun içerisine resmi gönderiyoruz
+                HistogramForm hf = new HistogramForm(hidden_box.Image);
+                hf.ShowDialog();
+            }
+
+        }
+
+        /*
+         * invert iþlemi için resmin her pikselini alýp
+         * R, G ve B olan üç deðerini 255'den çýkarýp sonuçlarý yeni resimde toparlýyoruz.
+         * */
+        private void ýnvertToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image != null)
+            {
+                Bitmap real = new Bitmap(hidden_box.Image);
+                for (int i = 0; i < real.Width; i++)
+                {
+                    for (int j = 0; j < real.Height; j++)
+                    {
+                        Color inv = real.GetPixel(i, j);
+                        inv = Color.FromArgb(255, (255 - inv.R), (255 - inv.G), (255 - inv.B));
+                        real.SetPixel(i, j, inv);
+                    }
+                }
+                //invert terslenen resmi ayný boyutta açmak için bitmapte alan alýyoruz
+                Bitmap boyutlandirilmisresim = new Bitmap(real, resmiortalama(real.Size, 600, 500));
+
+                hidden_box.Image = real;
+                pictureBox1.Image = boyutlandirilmisresim;
+
+            }
+        }
+
+        private void mirroringToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rotationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        /*
+         * saða aynalama için önce resmin iki katý geniþlikte yeni resim oluþturuyoruz
+         * ve örneðin geniþliði x piksel bir resim varsa:
+         * 0. pikseli -> (2*x-0). piksele
+         * 1. pikseli -> (2*x-1). piksele
+         * taþýyarak saða aynalamayý tamamlýyoruz
+         */
+        private void saðaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image != null)
+            {
+                Bitmap real = new Bitmap(hidden_box.Image);
+                Bitmap aynala = new Bitmap(real.Width * 2, real.Height);
+                for (int i = 0; i < real.Width; i++)
+                {
+                    for (int j = 0; j < real.Height; j++)
+                    {
+                        Color pixel = real.GetPixel(i, j);
+                        aynala.SetPixel(i, j, pixel);
+                        aynala.SetPixel((aynala.Width - 1) - i, j, pixel);
+                    }
+                }
+
+                hidden_box.Width = aynala.Width;
+                hidden_box.Height = aynala.Height;
+                hidden_box.Image = aynala;
+
+                Bitmap resizedMirrored = new Bitmap(aynala, resmiortalama(aynala.Size, 600, 500));
+
+                pictureBox1.Image = resizedMirrored;
+            }
+        }
+
+        /*
+         * sola aynalama saða aynalamadan farklý gerçekleþiyor.
+         * orjinal resim, aynalanmýþ resimde saðda konumlanacaðý için
+         * orjinal resimdeki her pikseli saða taþýyoruz ve ayna pikselini oluþturuyoruz.
+         * örneðin, geniþliði x piksel bir resim varsa:
+         * 0. pikseli -> (x + 0). piksele ve (x - 0). piksele
+         * 1. pikseli -> (x + 1). piksele ve (x - 1). piksele
+         * taþýyýp sola aynalama iþlemini tamamlýyoruz
+         */
+        private void solaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image != null)
+            {
+                Bitmap real = new Bitmap(hidden_box.Image);
+                Bitmap aynala = new Bitmap(real.Width * 2, real.Height);
+                for (int i = 0; i < real.Width; i++)
+                {
+                    for (int j = 0; j < real.Height; j++)
+                    {
+                        Color pixel = real.GetPixel(i, j);
+                        aynala.SetPixel(real.Width + i, j, pixel);
+                        aynala.SetPixel(real.Width - i, j, pixel);
+                    }
+                }
+
+                hidden_box.Width = aynala.Width;
+                hidden_box.Height = aynala.Height;
+                hidden_box.Image = aynala;
+
+                Bitmap resizedMirrored = new Bitmap(aynala, resmiortalama(aynala.Size, 600, 500));
+
+                pictureBox1.Image = resizedMirrored;
+            }
+        }
+
+        /*
+         * saða doksan derece döndürme iþlemi için, aþaðýdaki yolu izliyoruz:
+         * axb bir resim olsun
+         * saða dönmüþ hali için boyut bxa olarak deðiþecek
+         * eski resmin (0, 0) pikseli, yeni resimde (b-0, 0) konumuna
+         * eski resmin (0, 1) pikseli, yeni resimde (b-1, 0) konumuna
+         * ...
+         * eski resmin (5, 1) pikseli, yeni resimde (b-1, 5) konumuna
+         * yerleþecek.
+         */
+        private void rightToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image != null)
+            {
+                Bitmap real = new Bitmap(hidden_box.Image);
+                Bitmap dondur = new Bitmap(real.Height, real.Width);
+                for (int i = 0; i < real.Width; i++)
+                {
+                    for (int j = 0; j < real.Height; j++)
+                    {
+                        Color pixel = real.GetPixel(i, j);
+                        dondur.SetPixel((dondur.Width - 1) - j, i, pixel);
+                    }
+                }
+
+                hidden_box.Width = dondur.Width;
+                hidden_box.Height = dondur.Height;
+                hidden_box.Image = dondur;
+
+                Bitmap resizedRotated = new Bitmap(dondur, resmiortalama(dondur.Size, 600, 500));
+
+                pictureBox1.Image = resizedRotated;
+            }
+        }
+
+        /*
+         * saða doksan derece döndürme iþlemi için, aþaðýdaki yolu izliyoruz:
+         * axb bir resim olsun
+         * saða dönmüþ hali için boyut bxa olarak deðiþecek
+         * eski resmin (0, 0) pikseli, yeni resimde (0, a-0) konumuna
+         * eski resmin (0, 1) pikseli, yeni resimde (1, a-0) konumuna
+         * ...
+         * eski resmin (5, 1) pikseli, yeni resimde (1, b-5) konumuna
+         * yerleþecek.
+         */
+        private void leftToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image != null)
+            {
+                Bitmap real = new Bitmap(hidden_box.Image);
+                Bitmap dondur = new Bitmap(real.Height, real.Width);
+                for (int i = 0; i < real.Width; i++)
+                {
+                    for (int j = 0; j < real.Height; j++)
+                    {
+                        Color pixel = real.GetPixel(i, j);
+                        dondur.SetPixel(j, (dondur.Height - 1) - i, pixel);
+                    }
+                }
+
+                hidden_box.Width = dondur.Width;
+                hidden_box.Height = dondur.Height;
+                hidden_box.Image = dondur;
+
+                Bitmap resizedRotated = new Bitmap(dondur, resmiortalama(dondur.Size, 600, 500));
+
+                pictureBox1.Image = resizedRotated;
+            }
+        }
+
+        /*
+         * scaling iþlemi için, kullanýcýnýn geniþlik ve yükseklik gireceði
+         * yeni bir form oluþturuyoruz. bu forma þu anki deðerleri gönderiyoruz
+         * deðerleri formda alýp kutucuklara yazýyoruz. ve ok butonuna týklandýðýnda
+         * yeni deðerleri alýp, resmi yeni bir Size objesi oluþturarak boyutlandýrýyoruz.
+         */
+        private void scalingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image != null)
+            {
+                Olceklendirme2 s = new Olceklendirme2(hidden_box.Width, hidden_box.Height);
+                if (s.ShowDialog() == DialogResult.OK)
+                {
+                    if (s.genislik != 0 && s.yukseklik != 0)
+                    {
+                        Size boyut = new Size(s.genislik, s.yukseklik);
+                        Bitmap newImage = new Bitmap(pictureBox1.Image, boyut);
+
+                        hidden_box.Width = newImage.Width;
+                        hidden_box.Height = newImage.Height;
+                        hidden_box.Image = newImage;
+
+                        Bitmap boyutlandirilmisyeniresim = new Bitmap(newImage, resmiortalama(newImage.Size, 600, 500));
+
+                        pictureBox1.Image = boyutlandirilmisyeniresim;
+                    }
+                }
+            }
+        }
+
+
+
+        // constant olarak sakladýðýmýz resmi tekrar açýyoruz
+        private void reopenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image != null)
+            {
+                hidden_box.Width = sabitresim.Width;
+                hidden_box.Height = sabitresim.Height;
+                hidden_box.Image = sabitresim;
+                Bitmap boyutlandirilmisyeniresim = new Bitmap(sabitresim, resmiortalama(sabitresim.Size, 600, 500));
+                pictureBox1.Image = boyutlandirilmisyeniresim;
+            }
+        }
+
+        /*
+         * grayscale için wikipedia'da yer alan y' = 0.299R' + 0.587G' + 0.114B' formülünü kullanýyoruz.
+         */
+        private void grayScalingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image != null)
+            {
+                Bitmap real = new Bitmap(hidden_box.Image);
+                Bitmap gritonlama = new Bitmap(real.Width, real.Height);
+                for (int i = 0; i < real.Width; i++)
+                {
+                    for (int j = 0; j < real.Height; j++)
+                    {
+                        Color pixel = real.GetPixel(i, j);
+                        int gray = (int)((pixel.R * 0.3) + (pixel.G * 0.59) + (pixel.B * 0.11));
+                        Color grayedPixel = Color.FromArgb(pixel.A, gray, gray, gray);
+                        gritonlama.SetPixel(i, j, grayedPixel);
+                    }
+                }
+
+                hidden_box.Image = gritonlama;
+                Bitmap boyutlandirilmisgriton = new Bitmap(gritonlama, resmiortalama(gritonlama.Size, 600, 500));
+                pictureBox1.Image = boyutlandirilmisgriton;
+            }
+        }
+
+        /*
+         * red için (r, g, b) þeklinde üç parametre alan FromArgb metodunu kullanýyoruz.
+         * pikselin R deðerini metodun r kýsmýna verip color elde ediyoruz.
+         */
+        private void redToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image != null)
+            {
+                Bitmap real = new Bitmap(hidden_box.Image);
+                Bitmap kirmiziton = new Bitmap(real.Width, real.Height);
+                for (int i = 0; i < real.Width; i++)
+                {
+                    for (int j = 0; j < real.Height; j++)
+                    {
+                        Color pixel = real.GetPixel(i, j);
+                        Color coloredPixel = Color.FromArgb(pixel.R, 0, 0);
+                        kirmiziton.SetPixel(i, j, coloredPixel);
+                    }
+                }
+
+                hidden_box.Image = kirmiziton;
+
+                Bitmap boyutlandirilmiskirmiziton = new Bitmap(kirmiziton, resmiortalama(kirmiziton.Size, 600, 500));
+                pictureBox1.Image = boyutlandirilmiskirmiziton;
+            }
+        }
+
+        private void greenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image != null)
+            {
+                Bitmap real = new Bitmap(hidden_box.Image);
+                Bitmap yesilton = new Bitmap(real.Width, real.Height);
+                for (int i = 0; i < real.Width; i++)
+                {
+                    for (int j = 0; j < real.Height; j++)
+                    {
+                        Color pixel = real.GetPixel(i, j);
+                        Color coloredPixel = Color.FromArgb(0, pixel.G, 0);
+                        yesilton.SetPixel(i, j, coloredPixel);
+                    }
+                }
+
+                hidden_box.Image = yesilton;
+
+                Bitmap boyutlandirilmisyesilton = new Bitmap(yesilton, resmiortalama(yesilton.Size, 600, 500));
+                pictureBox1.Image = boyutlandirilmisyesilton;
+            }
+        }
+
+        private void blueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image != null)
+            {
+                Bitmap real = new Bitmap(hidden_box.Image);
+                Bitmap maviton = new Bitmap(real.Width, real.Height);
+                for (int i = 0; i < real.Width; i++)
+                {
+                    for (int j = 0; j < real.Height; j++)
+                    {
+                        Color pixel = real.GetPixel(i, j);
+                        Color coloredPixel = Color.FromArgb(0, 0, pixel.B);
+                        maviton.SetPixel(i, j, coloredPixel);
+                    }
+                }
+
+                hidden_box.Image = maviton;
+
+                Bitmap boyutlandirilmismaviton = new Bitmap(maviton, resmiortalama(maviton.Size, 600, 500));
+                pictureBox1.Image = boyutlandirilmismaviton;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image != null)
+            {
+                hidden_box.Width = sabitresim.Width;
+                hidden_box.Height = sabitresim.Height;
+                hidden_box.Image = sabitresim;
+                Bitmap boyutlandirilmisyeniresim = new Bitmap(sabitresim, resmiortalama(sabitresim.Size, 600, 500));
+                pictureBox1.Image = boyutlandirilmisyeniresim;
+            }
+        }
+
+        private void tekrarAçToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image != null)
+            {
+                hidden_box.Width = sabitresim.Width;
+                hidden_box.Height = sabitresim.Height;
+                hidden_box.Image = sabitresim;
+                Bitmap boyutlandirilmisyeniresim = new Bitmap(sabitresim, resmiortalama(sabitresim.Size, 600, 500));
+                pictureBox1.Image = boyutlandirilmisyeniresim;
+            }
+        }
+    }
+}
+
+----------------HistogramForm.Designer--------------
+namespace GoruntuIslemeEditoru
+{
+    partial class HistogramForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+           /*/((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();*/
+            this.SuspendLayout();
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Location = new System.Drawing.Point(173, 355);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(256, 128);
+            this.pictureBox5.TabIndex = 4;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Location = new System.Drawing.Point(170, 189);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(256, 128);
+            this.pictureBox4.TabIndex = 5;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Location = new System.Drawing.Point(173, 30);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(256, 128);
+            this.pictureBox3.TabIndex = 6;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(173, 14);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(36, 13);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Kýrmýzý";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(170, 173);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(29, 13);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Yeþil";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(173, 339);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(30, 13);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Mavi";
+            // 
+            // HistogramForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(621, 495);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Name = "HistogramForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Histogram";
+            this.Load += new System.EventHandler(this.HistogramForm_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+    }
+}
+-----------------HistogramForm----------------------
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace GoruntuIslemeEditoru
+{
+    public partial class HistogramForm : Form
+    {
+        private Image resim;
+
+        public HistogramForm(Image resim)
+        {
+            this.resim = resim;
+            InitializeComponent();
+        }
+
+        private void HistogramForm_Load(object sender, EventArgs e)
+        {
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+
+            Bitmap resim = new Bitmap(this.resim);
+
+           
+            int[] kirmizi = new int[256];
+            int[] yesil = new int[256];
+            int[] mavi = new int[256];
+
+           
+            int maximumKirmiziDeger = 0;
+            int maximumYesilDeger = 0;
+            int maximumMaviDeger = 0;
+
+            for (int i = 0; i < resim.Width; i++)
+            {
+                for (int j = 0; j < resim.Height; j++)
+                {
+                    
+                    int KirmiziDeger = resim.GetPixel(i, j).R;
+                    int YesilDeger = resim.GetPixel(i, j).G;
+                    int MaviDeger = resim.GetPixel(i, j).B;
+
+                   
+                    kirmizi[KirmiziDeger]++;
+                    yesil[YesilDeger]++;
+                    mavi[MaviDeger]++;
+
+                   
+                    if (kirmizi[KirmiziDeger] > maximumKirmiziDeger)
+                        maximumKirmiziDeger = kirmizi[KirmiziDeger];
+
+                    if (yesil[YesilDeger] > maximumYesilDeger)
+                        maximumYesilDeger = yesil[YesilDeger];
+
+                    if (mavi[MaviDeger] > maximumMaviDeger)
+                        maximumMaviDeger = mavi[MaviDeger];
+                }
+            }
+
+            Bitmap histogramKirmizi = new Bitmap(256, 128);
+            Bitmap histogramYesil = new Bitmap(256, 128);
+            Bitmap histogramMavi = new Bitmap(256, 128);
+
+           
+            using (Graphics r = Graphics.FromImage(histogramKirmizi))
+            {
+                for (int i = 0; i < kirmizi.Length; i++)
+                {
+                    float height = ((float)kirmizi[i] / (float)maximumKirmiziDeger) * (float)128;
+                    r.DrawLine(Pens.Red,
+                        new Point(i, histogramKirmizi.Height),
+                        new Point(i, (int)(histogramKirmizi.Height - height))
+                        );
+                }
+            }
+
+            using (Graphics g = Graphics.FromImage(histogramYesil))
+            {
+                for (int i = 0; i < yesil.Length; i++)
+                {
+                    float height = ((float)yesil[i] / (float)maximumYesilDeger) * (float)128;
+                    g.DrawLine(Pens.Green,
+                        new Point(i, histogramYesil.Height),
+                        new Point(i, (int)(histogramYesil.Height - height))
+                        );
+                }
+            }
+
+            using (Graphics b = Graphics.FromImage(histogramMavi))
+            {
+                for (int i = 0; i < mavi.Length; i++)
+                {
+                    float height = ((float)mavi[i] / (float)maximumMaviDeger) * (float)128;
+                    b.DrawLine(Pens.Blue,
+                        new Point(i, histogramMavi.Height),
+                        new Point(i, (int)(histogramMavi.Height - height))
+                        );
+                }
+            }
+
+            
+            pictureBox3.Image = histogramKirmizi;
+            pictureBox4.Image = histogramYesil;
+            pictureBox5.Image = histogramMavi;
+
+        }
+    }
+}
+
+
+------------------Olceklendirme2.Designer---------
+namespace GoruntuIslemeEditoru
+{
+    partial class Olceklendirme2
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+           // ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(44, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(50, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Geniþlik :";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(44, 60);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(59, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Yükseklik :";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(109, 26);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 2;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(109, 57);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 3;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(57, 104);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(142, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Uygula";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Olceklendirme2
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(257, 155);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Name = "Olceklendirme2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Ölçeklendirme";
+            this.Load += new System.EventHandler(this.Olceklendirme2_Load);
+            //((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.BindingSource bindingSource1;
+    }
+}
+------------------Olceklendirme2-------------------
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace GoruntuIslemeEditoru
+{
+    public partial class Olceklendirme2 : Form
+    {
+        public int ilkgenislik;
+        public int ilkyukseklik;
+
+        public int genislik = 0;
+        public int yukseklik = 0;
+
+        public Olceklendirme2(int ilkgenislik, int ilkyukseklik)
+        {
+            InitializeComponent();
+            this.ilkgenislik = ilkgenislik;
+            this.ilkyukseklik = ilkyukseklik;
+        }
+
+        private void Olceklendirme2_Load(object sender, EventArgs e)
+        {
+            this.MinimizeBox = false;
+            this.MaximizeBox = false;
+            textBox1.Text = ilkgenislik + "";
+            textBox2.Text = ilkyukseklik + "";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int genislik = 0;
+            int yukseklik = 0;
+            int.TryParse(textBox1.Text, out genislik);
+            int.TryParse(textBox2.Text, out yukseklik);
+            if (genislik != 0 && yukseklik != 0)
+            {
+                this.genislik = genislik;
+                this.yukseklik = yukseklik;
+            }
+            this.DialogResult = DialogResult.OK;
+            this.Close();
+        }
+    }
+}
